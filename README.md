@@ -1,7 +1,7 @@
-# Assignment 5: Matrix Algebra in R
+# Assignment 6: Matrix Operations and Construction
 
-In this week's assignment we practiced creating and inspecting matrices in R as well as 
-computing said matrixes with inverses and determinants using solve() and det() 
+In this week's assignment we practiced basic matrixes, learning to create diagonal matrixes with diag() and 
+create custom block-structured matrix. 
 
 #Packages required
 
