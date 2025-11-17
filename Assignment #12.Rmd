@@ -1,0 +1,41 @@
+---
+title: 'Assignment #12:'
+author: "David Vidal"
+date: "2025-11-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R markdown
+R markdown is a document that allows text, R code, output from said code and formatting needed. When finished constructing the file, 
+it can then be turned into an HTML webpage, PDF, Word document or other formats. The formatting is the following; ** ** to make a text bold, 
+* * to make a text italic, #s corresponds to the headings, and to write code is```{r}
+When knitting the document, the code is run top down, running by chunks. 
+
+## LaTeX expression
+$x^2 + 7x - 3$
+$$x^2 + 7x - 3$$
+
+### R Code block 1
+```{r}
+
+data("cars")
+
+summary(cars)
+```
+
+#### R code block 2
+```{r}
+library(ggplot2)
+
+data("cars")
+
+ggplot(cars, aes(x = speed, y = dist)) + 
+  geom_point()
+```
+
+##### Conclusion 
+I believe that using markdown is extremely helpful, plus can be presented easier and better than just writing a plain report. R markdown allows the individual to use many things in order to report findings easier. 

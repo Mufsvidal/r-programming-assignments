@@ -1,10 +1,7 @@
-# Assignment 9: Visualization in R – Base Graphics, Lattice, and ggplot2
-
-This week's assignment was to compare three visualization systems in R: base graphics, 
-lattice and ggplot2. 
+# Assignment 12: Introduction to R Markdown
+This week's assignment was to learn the basics of R Markdown and the structuring of
+the document. 
 
 
 #Packages required
-library(AER)
-library(lattice)
 library(ggplot2)
